@@ -114,6 +114,7 @@ UPI = CALCULATE([Utilisation %], fact_spends[payment_type]="UPI")
 
 Utilisation % = [Expenditure*]/[Income*]
 
+![image](https://github.com/user-attachments/assets/4bae27fd-cec1-4975-92cb-a2f910f0b295)
 
 5. ACT
    
