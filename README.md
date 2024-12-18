@@ -75,24 +75,43 @@ Avg income utilisation%: Find the average income utilisation % of customers (avg
 
 KPIs:
 Annual Expenditure = [Expenditure]*2
+
 Annual Income = [Income]*2
+
 Average Monthly Spend = AVERAGE(fact_spends[spend])
+
 Credit Card = CALCULATE([Utilisation %], fact_spends[payment_type]="Credit Card")
+
 Customers = COUNT(dim_customers[customer_id])
+
 Expenditure = SUM(fact_spends[spend])
+
 Expenditure* = SUM(fact_spends[spend])/6
+
 Female = CALCULATE([Customers], dim_customers[gender]="Female")
+
 Female Utilization = CALCULATE([Utilisation %], dim_customers[gender]="Female")
+
 Income = SUM(dim_customers[income])
+
 Income* = SUM(dim_customers[avg_income])
+
 Male = CALCULATE([Customers], dim_customers[gender]="Male")
+
 Male Utilization = CALCULATE([Utilisation %], dim_customers[gender]="Male")
+
 Male% = [Male]/[Customers]
+
 Net Banking = CALCULATE([Utilisation %], fact_spends[payment_type]="Net Banking")
+
 Saving = [Income]-[Expenditure]
+
 Saving* = [Income*]-[Expenditure*]
+
 Transaction = COUNT(fact_spends[customer_id])
+
 UPI = CALCULATE([Utilisation %], fact_spends[payment_type]="UPI")
+
 Utilisation % = [Expenditure*]/[Income*]
 
 
