@@ -87,6 +87,7 @@ Utilisation % = [Expenditure*]/[Income*]
 
 
 5. ACT
+   
 Insights:
 Key Metrics: Customer: 4000, Male: 2597, Female: 1403, Total Transactions: 864K, Total Income: 1240M, Total Expenditure: 531M, Average Income Utilization: 42.82%
 Age group distribution shows a peak in the 25-35 category, with a total of 1498 individuals.
